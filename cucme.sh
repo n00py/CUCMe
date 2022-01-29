@@ -1,6 +1,6 @@
 if [ $# -eq 0 ]
   then
-    echo "Please provide a hostname or IP Address"
+    echo "Please provide a hostname or IP address"
     exit 1
 fi
 echo 'Please wait just a moment...'
