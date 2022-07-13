@@ -12,3 +12,4 @@ for x in {a..z}
 	done 
 done | sort -u > cucm_users.txt
 echo "User dump complete!"
+echo "Found `wc -l cucm_users.txt` accounts!"
